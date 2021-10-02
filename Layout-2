@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+        }
+        header, main, nav, footer{
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header{
+            height:100px;
+            background-color: blueviolet;
+        }
+        nav{
+            height:50px;
+            background-color: brown;
+        }
+        main{
+            height:420px;
+            background-color: salmon;
+
+        }
+        footer{
+            height:100px;
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <header>Header</header>
+    <nav>Navigation Bar</nav>
+    <main>Main Content</main>
+    <footer>Footer</footer>
+
+</body>
+</html>
